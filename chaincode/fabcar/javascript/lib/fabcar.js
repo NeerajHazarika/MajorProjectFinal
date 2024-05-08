@@ -116,7 +116,7 @@ class FabCar extends Contract {
                 Buffer.from(JSON.stringify(giver))
             );
 
-            const takerAsBytes = await ctx.stub.getState(giverId); // get the car from chaincode state
+            const takerAsBytes = await ctx.stub.getState(takerId); // get the car from chaincode state
 
             const taker = JSON.parse(takerAsBytes.toString());
             taker.credits = parseInt(taker.credits) + 1;
