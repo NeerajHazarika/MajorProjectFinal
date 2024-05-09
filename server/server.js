@@ -144,8 +144,7 @@ app.post("/uploadDocument", async (req, res) => {
 // const MONGOURL =
 //   "mongodb+srv://shubham242:d5kh2a44s9@cluster0.wkigzuj.mongodb.net/?retryWrites=true&w=majority";
 
-const MONGOURL =
-  "mongodb+srv://Niket:Niket%40123@cluster0.mz1ya4w.mongodb.net/?retryWrites=true&w=majority";
+const MONGOURL = "";
 
 httpServer.listen(port, async () => {
   // Connect to MongoDB using Mongoose
