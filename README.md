@@ -14,3 +14,6 @@ Steps to start :-
    This will start OCR-parser server on port 5000
 5) node main_script.js
    This will open up the entire integrated thing. 
+
+Bachelor Thesis report:
+[link](https://github.com/NeerajHazarika/MajorProjectFinal/blob/main/Report%20(2).pdf)
